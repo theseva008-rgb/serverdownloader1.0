@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "serverdownloader",
+  "version": "${version}",
+  "name": "ServerDownloader",
+  "description": "Создаёт резервную копию файлов сервера (мир, конфиги, плагины/моды) в папку внутри mods по команде.",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/serverdownloader/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.serverdownloader.ServerDownloaderMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
